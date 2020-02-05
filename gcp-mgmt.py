@@ -53,7 +53,7 @@ def set_api_state(projectNumber, serviceName, serviceState):
         serviceState: string, the desired state of the API service.
     
     Issues:
-        "Billing must be enabled for activation of service '[compute.googleapis.com, compute.googleapis.com, compute.googleapis.com]' in project '910293000415' to proceed."
+        "Billing must be enabled for activation of service '[compute.googleapis.com, compute.googleapis.com, compute.googleapis.com]' in project 'XXXXXXXXXXXX' to proceed."
     """
     init_api(serviceName='serviceusage')
     if serviceState == 'DISABLED':
