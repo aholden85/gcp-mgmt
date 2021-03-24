@@ -6,6 +6,6 @@ httplib2==0.18.0
 pkg-resources==0.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.7
-rsa==4.0
+rsa==4.1
 six==1.13.0
 uritemplate==3.0.1
